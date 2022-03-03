@@ -7,33 +7,32 @@
     <title>Leaderboard</title>
 </head>
 <body>
-	<header>
-		<h1>Leaderboard</h1>
-	</header>
-	<div class="wrapper">
-		<section id="score-table">
-			<div class="head">
-				<h2>Recent Scores</h2>
-				<button id="refresh" type="button">Refresh</button>
-			</div>
-			<ul class="scores-list">
-				<li class="list-item">
-					<p class="player">Thiago:</p>
-					<p class="score-number">10</p>
-				</li>
-			</ul>
-		</section>
-		<section id="add">
-			<div class="add-heading">
-				<h2>Add your Score</h2>
-			</div>
-			<form class="add-input">
-				<input required type="text" id="name" name="name" placeholder="Your name" class="input">
-				<input required type="number" id="score" name="score" placeholder="Your score" class="input">
-				<button type="submit" id="submit-btn">Submit</button>
-				<p></p>
-			</form>
-		</section>
+	<div class="container">
+		<header>
+			<h1 class="neonText">Arcade Leaderboard</h1>
+		</header>
+		<div class="wrapper">
+			<section id="points-table">
+				<div class="head">
+					<h2>Recent Points</h2>
+					<button id="refresh-btn" type="button">Refresh</button>
+				</div>
+				<ul class="points">
+				</ul>
+			</section>
+			<section id="add">
+				<div class="add-heading">
+					<h2>Add your Points</h2>
+				</div>
+				<form class="add-input">
+					<label for="name"></label>
+					<input required type="text" id="name" name="name" placeholder="Your Name">
+					<label for="score"></label>
+					<input required type="number" id="score" name="score" placeholder="Your Points" >
+					<button type="submit" id="submit-btn">Add Score</button>
+				</form>
+			</section>
+		</div>
 	</div>
 </body>
 </html>
