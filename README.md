@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To-Do List
+# Leaderboard
 
 > This is a simple leaderboard page I made following the requirements from Microverse.
 
