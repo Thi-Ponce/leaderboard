@@ -10,7 +10,7 @@ const show = () => {
     const higherFirst = dataList.result.sort((a, b) => b.score - a.score);
     higherFirst.forEach((data) => {
       const li = document.createElement('li');
-      li.innerHTML = `<p class="text-y">${data.user}: ${data.score}</p>`;
+      li.innerHTML = `<p>${data.user}: ${data.score}</p>`;
       pointsTable.appendChild(li);
     });
   });
