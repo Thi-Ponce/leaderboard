@@ -11,7 +11,7 @@
 
 ## Getting Started
 
-> This project does not require any set-up to use it, just clone the project and code away!
+> To work on this project and see it live please run npm run build and npm start, after that feel free to code away!
 
 ## Author
 
